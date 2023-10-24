@@ -1,0 +1,11 @@
+namespace Items.Armors
+{
+    public enum ArmorType
+    {
+        Undefined = 0,
+        Head = 1,
+        Body = 2,
+        Pants = 3,
+        Boots = 4,
+    }
+}

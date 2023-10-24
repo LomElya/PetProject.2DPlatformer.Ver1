@@ -1,0 +1,50 @@
+<dialogue>
+    <node >
+        <npcname> Андрей</npcname>
+        <quest needquestvalue = "0"> <questname>Quest1</questname> </quest>
+        <npctext>Поговори с Сашей, она немного дальше по дороге.</npctext>
+        <answers >
+            <answer tonode="0"  questvalue = "1"> <text>Принять</text>  <dialend>true</dialend>  </answer>
+            <answer tonode="0"> <text>Назад</text>  <dialend>true</dialend>  </answer>
+        </answers>
+    </node>
+
+
+    <node >
+        <npcname> Андрей</npcname>
+        <quest needquestvalue = "2"> <questname>Quest2</questname> </quest>
+        <npctext  >Мой свет погас.</npctext>
+        <answers>
+            <answer tonode="1"> <text>Далее</text> </answer>
+            <answer tonode="0"> <text>Отмена</text> <dialend>true</dialend>  </answer>
+        </answers>
+    </node>
+    <node >
+        <npcname> Андрей</npcname>
+        <quest needquestvalue = "2"> <questname>Quest2</questname> </quest>
+        <npctext>Только ты можешь мне помочь.</npctext>
+        <answers>
+            <answer tonode="1"> <text>Далее</text> </answer>
+            <answer tonode="0"> <text>Отмена</text> <dialend>true</dialend></answer>
+        </answers>
+    </node>
+    <node >
+        <npcname> Андрей</npcname>
+        <quest needquestvalue = "2"> <questname>Quest2</questname> </quest>
+        <npctext>Ты мне поможешь?</npctext>
+        <answers>
+            <answer tonode="0" questvalue = "2"> <text>Принять</text> <dialend>true</dialend> <tolevel>1</tolevel> </answer>
+            <answer tonode="0"> <text>Отмена</text><dialend>true</dialend>  </answer>
+        </answers>
+    </node>
+
+    <node >
+        <npcname> Андрей</npcname>
+        <quest needquestvalue = "3"> <questname>Quest3</questname> </quest>
+        <npctext>Спасибо, что помог</npctext>
+        <answers>
+            <answer tonode="0" questvalue = "2"> <text>Принять</text> <dialend>true</dialend>  </answer>
+            <answer tonode="0"> <text>Отмена</text><dialend>true</dialend>  </answer>
+        </answers>
+    </node>
+</dialogue>

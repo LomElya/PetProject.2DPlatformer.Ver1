@@ -1,0 +1,11 @@
+<dialogue>
+    <node>
+        <npcname> Указатель</npcname>
+        <npctext>Направо - "Хижина дровосека".
+Наверх -"Темный лес" .</npctext>
+        <answers>
+            <answer tonode="0"> <text>Принять</text> <dialend>true</dialend> </answer>
+            <answer tonode="0"> <text>Назад</text>   <dialend>true</dialend>  </answer>
+        </answers>
+    </node>
+</dialogue>

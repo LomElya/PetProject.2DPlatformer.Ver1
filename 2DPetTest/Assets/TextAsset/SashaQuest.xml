@@ -1,0 +1,20 @@
+<dialogue>
+    <node>
+        <npcname> Саша</npcname>
+        <quest needquestvalue = "1"> <questname>Quest1</questname> </quest>
+        <npctext>Какой-нибудь текст.</npctext>
+        <answers>
+            <answer tonode="1"> <text>Далее</text></answer>
+            <answer tonode="0"> <text>Отмена</text> <dialend>true</dialend>  </answer>
+        </answers>
+    </node>
+    <node>
+        <npcname> Саша</npcname>
+        <quest needquestvalue = "1"> <questname>Quest1</questname> </quest>
+        <npctext>Чтобы перейти на следующий квест.</npctext>
+        <answers>
+            <answer tonode="0"> <text>Принять</text> <dialend>true</dialend></answer>
+            <answer tonode="0"> <text>Отмена</text>  <dialend>true</dialend></answer>
+        </answers>
+    </node>
+</dialogue>
